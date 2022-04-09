@@ -1,0 +1,61 @@
+.top{
+    width: 100%; /*rely on the entire page width*/
+    height: 50px;
+    background-color: white;
+    font-family: 'Josepfin Sans', 'sans-serif';
+    position: sticky; /*always stay in the screen*/
+    top:0; /*it's gonna stay always in this position*/
+    display: flex;
+    align-items: center; /*puts items on the center*/
+    z-index: 999; /*make it opaque, do not let objects under this top-bar to show up*/
+}
+
+.topLeft, .topRight {
+    flex:3; /*topLeft and topRight are three units, */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter{
+    flex:6; /*topCenter is six units */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topImg{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: contain; /*fits photo inside the bordered-radius circle.*/
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px; 
+    color: #444;
+    cursor: pointer; /*change cursor whenever hoover*/
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none; /*get rid of list dots.*/
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300px;
+    cursor: pointer;
+}
+
+.topSearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}

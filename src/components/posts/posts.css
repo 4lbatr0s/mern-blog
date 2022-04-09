@@ -1,0 +1,7 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap; /*fits post to the parent div's empty areas.*/
+    /*if children is smaller than the space, use the empty areas as row, fit posts into the rows, horizontally.*/
+    margin: 20px;
+}

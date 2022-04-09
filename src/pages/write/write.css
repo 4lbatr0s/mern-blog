@@ -1,0 +1,57 @@
+.write{
+    padding-top: 50px;
+}
+
+.writeForm{
+    position: relative;
+}
+
+.writeFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.writeInput{
+    font-style: 30px;
+    border: none;
+    padding: 20px;
+    width: 75vw;
+}
+
+
+/*focus deletes the outline, the border when you click on writeInput attributed elements */
+.writeInput:focus{
+    outline: none;
+}
+
+.writeText{
+    font-style: 20px;
+}
+
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: 20px;
+    color: rgb(189, 184, 184);
+    cursor: pointer;
+}
+
+.writeSubmit{
+    position: absolute; /*if you want to use absolute position the parent in this case is writeForm should be relative.*/
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-style: 16px;
+}

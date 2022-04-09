@@ -1,0 +1,30 @@
+.header{
+    margin-top: 60px;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", "serif";
+    color: #444;    
+}
+
+.headerTitleSm{
+    position: absolute; /*absolute position breaks flex-direction:column*/
+    top: 18%;
+    font-size: 20px;
+}
+
+.headerTitleLg{
+    position: absolute; /*absolute positon does not move if you change the margin values of the parent element"*/
+    top: 20%;
+    font-size: 100px;
+}
+
+.headerImg{
+    width: 100%; /*prevent the overflow, fits img into screen*/
+    height: 450px;
+    margin-top: 150px;
+    object-fit: cover; 
+}
