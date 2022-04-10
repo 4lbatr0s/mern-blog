@@ -18,6 +18,7 @@
     border: none;
     padding: 20px;
     width: 75vw;
+    font: bold;
 }
 
 
@@ -28,6 +29,7 @@
 
 .writeText{
     font-style: 20px;
+    height: 100vh; /*makes the writing place taller.*/
 }
 
 .writeIcon{
@@ -54,4 +56,12 @@
     border: none;
     cursor: pointer;
     font-style: 16px;
+}
+
+.writeImage{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
 }

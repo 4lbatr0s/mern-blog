@@ -1,0 +1,58 @@
+
+.register{
+    height: calc(100vh - 50px); /*because our topbar component's height is 50px, so we do not want to override z-index value of topbar component*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(237, 237, 158, 0.5)
+        ),
+        url("https://blog.singulart.com/wp-content/uploads/2019/11/art-school-of-athens-1143741_1920-1-1140x726.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0; /*top and bottom - left and right*/
+}
+
+.registerInput{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid rgb(48, 48, 40);
+    outline: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(48, 48, 40);
+    border: none;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;/*default parent is the register(body div)*/
+    top: 60px;
+    right: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(48, 48, 40);
+    color: yellow;
+    cursor: pointer; 
+}
